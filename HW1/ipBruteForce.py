@@ -24,7 +24,8 @@ minc=lessequalc//min(coec)
 mind=lessequald//min(coed)
 minall=min(mina,minb,minc,mind)
 maxall=max(mina,minb,minc,mind)
-
+if (minall<0):
+    minall=0
 
 print(mina,minb,minc,mind)
 print(minall,maxall)
@@ -55,4 +56,4 @@ for a in range(minall,maxall+1):
 
 print(a,b,c,d,e,saveall)
 
-# FOR其實跑不出來，可能因為值太大了，我太沒耐心，但我覺得CODE沒錯
+# FOR其實跑不完，可能因為值太大了，我太沒耐心，但我覺得CODE沒錯
